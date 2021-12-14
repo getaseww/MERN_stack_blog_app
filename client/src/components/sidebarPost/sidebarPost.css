@@ -1,0 +1,11 @@
+.sidebarLink{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.sidebarLink:hover{
+    color: aqua;
+}
+.sidebarTitle{
+    padding: 10px;
+}

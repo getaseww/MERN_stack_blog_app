@@ -1,0 +1,89 @@
+.top {
+    width: 100%;
+    height: 50px;
+    background-color: #1C0C5B;
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 999;
+}
+
+.topLeft {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.topCenter {
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchField {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.searchField:focus {
+    outline: none;
+}
+
+.searchButton {
+    padding: 6px;
+    font-size: 17px;
+    margin-top: 8px;
+    border: none;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.topIcon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+    color: crimson;
+}
+
+.topImg {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.topList {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.topListItem {
+    margin-right: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+}
+
+.navLink:hover {
+    color: aqua;
+}

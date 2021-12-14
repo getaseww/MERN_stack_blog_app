@@ -1,0 +1,18 @@
+.aboutTitle{
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contentRow{
+    display: flex;
+}
+.aboutContentLeft,.aboutContentRight{
+    flex: 2;
+}
+.aboutContentCenter{
+    flex: 4;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    font-size: 20px;
+    line-height: 25px;
+}
